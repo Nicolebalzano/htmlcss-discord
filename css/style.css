@@ -141,6 +141,11 @@ padding-bottom: 20px;
 font-size: 2em;
 }
 .new-adventure {
+    background-image: url(../img/stars.svg);
+    background-size:650px;
+  background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
     margin-bottom: 30px;
 }
 .section-5 p {
