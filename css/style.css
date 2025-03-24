@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+}
 body {
     font-family:Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -101,10 +104,12 @@ background-color: #255EE9;
     margin-bottom: 70px;
 }
 .col-70 {
+    width: 70%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .col-30 {
+    width: 30%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -118,17 +123,18 @@ background-color: #255EE9;
 
 }
 .section-5 {
-    background-color: #FFC0CB;
-   height: 90%;
-   width: 40%;
-   border: 2px solid #000000;
-   border-style: dotted;
+   width: 60%;
    margin-top: 30px;
    margin-bottom: 30px;
-   background-color: #228B22;
+   text-align: center;
 }
-.fifth-section {
-    height: 500px;
+.section-5 h2 {
+    padding-top: 30px;
+padding-bottom: 20px;
+font-size: 2em;
+}
+.section-5 p {
+    line-height: 20px;
 }
 .col-40{
     height: 400px;
