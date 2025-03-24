@@ -136,29 +136,44 @@ font-size: 2em;
 .section-5 p {
     line-height: 20px;
 }
-.col-40{
-    height: 400px;
-    width: 40%;
-    background-color: #F08080;
+.col-30{
+    width: 30%;
     margin-top: 30px;
     margin-bottom: 30px;
-    /* debug */
-    border: 2px solid #000000;
-    border-style: dotted;
+}
+.col-30 h3 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    color: #7289DA;
+}
+.col-30 p{
+    font-size: 0.7em;
+    padding-left: 5px;
+    padding-right: 3px;
 }
 .col-15 {
-    height: 400px;
     width: 15%;
-    background-color: #20B2AA;
     margin-top: 30px;
     margin-bottom: 30px;
-    /* debug */
-    border: 2px solid #000000;
-    border-style: dotted;
+}
+.change-language {
+    display: flex;
+    color: #fff;
+}
+
+.icones {
+    color: #ffffff;
+    padding: 10px 15px 0px 0px;
 }
 .bg-dark {
     background-color: #23272A;
     border-bottom: 2px solid #ffffff;
+}
+
+.bandiera-italia {
+    width: 15px;
+    height: 10px;
+    margin-top: 7px;
 }
 /* FOOTER */
 .padding-top20 {
