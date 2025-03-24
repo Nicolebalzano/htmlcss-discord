@@ -5,12 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-/* HEADER */
-.header {
-    background-color: #255EE9;
-    height: 80px;
+    font-family:Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /* COMMON */
 .container {
@@ -18,8 +13,20 @@ body {
    max-width: 1000px;
    margin: 0 auto;
 }
+/* UTILITIES */
+.buttons {
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.bg-lightgray {
+    background-color: #F6F6F6;
+}
 /* Layout */
-
+/* HEADER */
+.header {
+    background-color: #255EE9;
+    height: 80px;
+}
 .flex-header{
 display: flex;
 justify-content: space-between;
@@ -39,10 +46,7 @@ background-color: #255EE9;
     list-style: none;
 }
 .login-header {
-    padding: 10px 20px;
     background-color:#ffffff ;
-    border: 1px solid #ffffff;
-    border-radius: 20px;
 }
 .logo {
     padding-top: 5px;
@@ -54,43 +58,64 @@ background-color: #255EE9;
 .section-header a {
   text-decoration: none;
 }
+/* MAIN */
 .first-section {
-    background-color: #00008B;
-    /* debug */
-    height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
+/* content-1 */
 .content-1 {
-    background-color: #EE82EE;
-   height: 300px;
    width: 50%;
-   border: 2px solid #000000;
-   border-style: dotted;
    margin-top: 30px;
    margin-bottom: 30px;
+   text-align: center; 
+   color: #ffff;
+   padding: 30px;
+   line-height: 30px;
+}
+.content-1 h1 {
+    margin-bottom: 40px;
+}
+.content-1 a {
+    text-decoration: none;
+}
+.download-mac {
+    background-color: #ffffff;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: #000000;
+}
+.open-discord {
+    background-color:#23272A ;
+    display: inline-block;
+    margin-top: 15px;
+    color: #ffff;
+}
+/* content-2 */
+.section-margin-display {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .col-70 {
-    background-color:#5757ce;
-    width: 70%;
     margin-top: 30px;
     margin-bottom: 30px;
-    /* debug */
-    height: 300px;
-    border: 2px solid #000000;
-    border-style: dotted;
 }
 .col-30 {
-    background-color: #FFC0CB;
-    width: 30%;
     margin-top: 30px;
     margin-bottom: 30px;
-    /* debug */
-    height: 300px;
-    border: 2px solid #000000;
-    border-style: dotted;
-    
 }
-.bg-gray {
-    background-color: #D3D3D3;
+.col-30 h2 {
+    font-size: 3em;
+    padding-bottom: 40px;
+    line-height: 50px;
+}
+.col-30 p {
+    line-height: 25px;
+
 }
 .section-5 {
     background-color: #FFC0CB;
